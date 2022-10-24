@@ -1,4 +1,5 @@
-:root {/*Creacion de variables de colores*/
+:root {
+    /*Creacion de variables de colores*/
     --background-llamada-mobile: #00161C;
     --background-blanco: #FFFFFF;
     --background-azul-claro: #DFE3F5;
@@ -24,17 +25,22 @@
 }
 
 body {
-    font-family: var(--open-sans)
+    font-family: var(--open-sans);
 }
-.container { /*margen*/
+
+.container {
+    /*margen*/
     padding-right: 6%;
     padding-left: 6%;
 }
-.boton {/*Configuracion de botones*/
+
+.boton {
+    /*Configuracion de botones*/
     text-align: center;
     display: block;
     width: 100%;
-    max-width: 350px; /*Tamaño maximo del boton*/
+    max-width: 350px;
+    /*Tamaño maximo del boton*/
     box-sizing: border-box;
     padding: 1rem 2rem;
     border: 1px solid var(--boton-rojo);
