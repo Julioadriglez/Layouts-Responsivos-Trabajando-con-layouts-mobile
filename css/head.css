@@ -1,5 +1,5 @@
 .head {
-    color: #FFFFFF;
+    color: var(--background-blanco);
 
     width: 100%;
 
