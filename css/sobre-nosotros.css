@@ -29,22 +29,24 @@
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
 }
+.sobre_nosotros__imagen {
+    display: none;
+}
 @media screen and (min-width: 1024px) {
-    .sobre-nosotros {
+    .sobre_nosotros {
         display: flex;
     }
-    .sobre-nosotros__contenido {
+    .sobre_nosotros__contenido {
         margin-right: 3rem;
     }
-    .sobre-nosotros__titulo {
+    .sobre_nosotros__titulo {
         text-align: left;
     }
     .sobre-nosotros__texto--division {
-        border-bottom: 1px solid var(--cinza-medio);
-
+        border-bottom: 1px solid var(--background-ceniza-medio);
         padding-bottom: 1.5rem;
     }
-    .sobre-nosotros__imagen {
+    .sobre_nosotros__imagen {
         display: block;
     }
 }
